@@ -6,6 +6,10 @@ Author: Elvis Saravia
 Email: ellfae@gmail.com
 """
 
+# format_rows(docs) 的功能是：
+# 取出 docs.data 裡的文章。
+# 去掉換行、tab，讓每篇文章變成一行乾淨字串。
+# 包成 list of list 格式，方便丟進 pd.DataFrame.from_records()。
 def format_rows(docs):
     """ format the text field and strip special characters """
     D = []
