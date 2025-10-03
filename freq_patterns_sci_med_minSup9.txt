@@ -16200,8 +16200,6 @@ pay:12
 waste:12
 bring:12
 510:12
-510	international:9
-510	means:9
 510	action:9
 510	408:9
 510	408	action:9
@@ -16209,6 +16207,8 @@ bring:12
 510	online	action:9
 510	online	408:9
 action	510	online	408:9
+510	means:9
+510	international:9
 dying:12
 dying	means:9
 dying	guest:9
@@ -16252,12 +16252,12 @@ table:12
 risks:12
 steroid:12
 eau:12
+eau	nye:11
+claire	eau	nye:11
 eau	wisconsin:11
 eau	wisconsin	nye:10
 claire	eau	wisconsin	nye:10
 eau	wisconsin	claire:11
-eau	nye:11
-claire	eau	nye:11
 eau	absurd:11
 eau	absurd	wisconsin:10
 claire	eau	absurd	wisconsin:10
@@ -17330,6 +17330,8 @@ meal:13
 al:13
 claire:13
 claire	nye:11
+claire	wisconsin:11
+claire	wisconsin	nye:10
 claire	absurd:11
 claire	absurd	wisconsin:10
 nye	claire	absurd	wisconsin:10
@@ -17358,8 +17360,6 @@ claire	wishes	patently:11
 nye	claire	wishes	patently:11
 absurd	claire	wishes	patently:11
 nye	absurd	claire	wishes	patently:11
-claire	wisconsin:11
-claire	wisconsin	nye:10
 beginning:13
 iv:13
 quacks:13
@@ -17684,11 +17684,11 @@ doubt:16
 insurance:16
 grief:16
 international:16
-international	action:9
 international	means:9
 international	communications:9
 means	international	communications:9
 international	guest:9
+international	action:9
 professional:16
 1993apr19:16
 ill:16
